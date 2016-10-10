@@ -10,7 +10,7 @@ var lastAlertId = undefined;
 
 function checkEverything() {
     $.ajax({
-        url: 'http://gotpvp.com/forum/index.php',
+        url: 'https://forums.wynncraft.com/',
         success: function(data) {
             data = data.replace(/\"\/\//g, "\"http://");
             checkNotifications(data);
@@ -21,7 +21,7 @@ function checkEverything() {
 	
 function checkNotificationDetails(){
     $.ajax({
-        url: 'http://gotpvp.com/forum/index.php?account/alerts',
+        url: 'https://forums.wynncraft.com/account/alerts',
         success: function(data) {
             data = data.replace(/\"\/\//g, "\"http://");
 			checkNotificationsEnchanced(data);
@@ -84,7 +84,7 @@ chrome.notifications.onClicked.addListener(function(notificationid) {
     } else if (my_notids_messages.indexOf(notificationid) > -1) {
         my_notids_messages.pop(notificationid);
         chrome.notifications.clear(notificationid);
-        window.open("http://gotpvp.com/forum/index.php?conversations/");
+        window.open("https://forums.wynncraft.com/conversations/");
     }
 });
 
