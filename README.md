@@ -1,12 +1,12 @@
-# GotPvP Notifier
+# Wynncraft Notifier
 Google Chrome Extension
 
-Notifies users of their GotPvP account's Messages and Notifications,  
+Notifies users of their Wynncraft Forum account's Messages and Notifications,  
 Also displays their post count and post rating.
 
-You have to be logged in on http://gotpvp.com/ for it to work.
+You have to be logged in on http://forums.wynncraft.com/ for it to work.
 
-[Click here for the Chrome Web Store page!](https://chrome.google.com/webstore/detail/gotpvp-notifier/cnojdkklalnlfadndogkckchiabpkogh)
+~~Click here for the Chrome Web Store page!~~ COMING SOON
 
 
 
