@@ -80,7 +80,7 @@ chrome.notifications.onClicked.addListener(function(notificationid) {
     if (my_notids_alerts.indexOf(notificationid) > -1) {
         my_notids_alerts.pop(notificationid);
         chrome.notifications.clear(notificationid);
-        window.open("http://gotpvp.com/forum/index.php?account/alerts");
+        window.open("https://forums.wynncraft.com/account/alerts");
     } else if (my_notids_messages.indexOf(notificationid) > -1) {
         my_notids_messages.pop(notificationid);
         chrome.notifications.clear(notificationid);
